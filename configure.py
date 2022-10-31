@@ -1,3 +1,3 @@
 # Add your AssemblyAI API key to the string below
 # If you do not have an API key you can create an account for free at https://app.assemblyai.com/signup
-auth_token = ""
+auth_token = "388008652fea473dbda5202220460312"

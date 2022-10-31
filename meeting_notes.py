@@ -9,7 +9,7 @@ if 'start_point' not in st.session_state:
 def update_start(start_t):
     st.session_state['start_point'] = int(start_t/1000)
 
-uploaded_file = st.file_uploader('Please upload a file')
+uploaded_file = st.file_uploader("NOTE: Processing takes around 25% of the audio duration, please don't refresh!")
 
 if uploaded_file is not None:
     st.audio(uploaded_file, start_time=st.session_state['start_point'])
