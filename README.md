@@ -1,4 +1,5 @@
-# Creating Meeting Notes using Topic Detection and Auto Chapters
+Creating Meeting Notes Using Topic Detection and Auto Chapters
+--
 
 ## Description
 
@@ -6,4 +7,21 @@ This is an example of you how you can use AssemblyAI's [Auto Chapters](https://w
 
 You can also follow along with [this YouTube tutorial](https://youtu.be/RMBhwwqeDOw) for a step by step guide on how to build this application.
 
-![Preview](screenshot.png)
+## Quick Setup
+
+* Download project files by running `git clone https://github.com/AssemblyAI/meeting-notes.git`
+* Navigate to the project folder
+* Create a new [virtual environment](https://docs.python.org/3/library/venv.html)
+* Activate the new virtual environment and run `pip install -r requirements.txt` to install project dependencies
+* Add your AssemblyAI API key to the `configure.py` file
+* Run the application using the `streamlit run app.py`
+
+## Main Dependencies
+
+* [Streamlit](https://pypi.org/project/streamlit/) The fastest way to build data apps in Python
+* [Pandas](https://pypi.org/project/pandas/) Powerful data structures for data analysis, time series, and statistics
+
+
+Contact Us
+--
+If you have any questions, please feel free to reach out to our Support team - support@assemblyai.com!
